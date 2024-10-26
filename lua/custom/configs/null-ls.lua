@@ -5,7 +5,7 @@ local opts = {
   sources = {
     -- Prettierd for JavaScript, TypeScript, and Prisma formatting
     null_ls.builtins.formatting.prettierd.with({
-      filetypes = { "javascript", "typescript", "prisma" },  -- Include "prisma" for Prettier formatting
+      filetypes = { "javascript", "typescript", "typescriptreact", "javascriptreact", "prisma" },  -- Include "prisma" for Prettier formatting
     }),
   },
   on_attach = function(client, bufnr)
